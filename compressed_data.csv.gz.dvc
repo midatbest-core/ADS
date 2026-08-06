@@ -1,0 +1,5 @@
+outs:
+- md5: 645912082a820ef6da9187dc9745c33f
+  size: 7158177
+  hash: md5
+  path: compressed_data.csv.gz
