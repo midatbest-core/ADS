@@ -10,7 +10,7 @@ st.set_page_config(
     layout="wide"
 )
 
-BASE_PATH = "/content/ADS"
+BASE_PATH = os.path.dirname(os.path.abspath(__file__))
 
 MODEL_PATH = os.path.join(BASE_PATH, "best_model.pkl")
 DATA_PATH = os.path.join(
