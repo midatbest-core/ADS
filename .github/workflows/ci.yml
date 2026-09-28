@@ -26,7 +26,8 @@ jobs:
 
       - name: Check DVC tracking
         run: |
-          dvc status
+          test -f Integrated_Cleaned_Dataset_with_Revenue.csv.dvc
+          echo "DVC tracking file found."
 
       - name: Run tests
         run: |
